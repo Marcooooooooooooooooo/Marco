@@ -1,0 +1,75 @@
+
+body {
+ background-image: url(file:///C:/Users/perta/OneDrive/Desktop/challenge/background.jpg);
+}
+
+.contenitore{
+  width: 650px ;
+  height: 500px ;
+  margin: auto;
+  background : rgba(0, 0, 0, 0.3) ;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.centro{
+  margin: auto;
+  width : 400px ;
+}
+
+img {
+  width: 200px ;
+  height: 100px ;
+}
+
+main> img,h3 {
+  display:block;
+  margin:0px auto;
+  text-align:center;
+}
+
+.main, .verde, .Testo, .Testo-piccolo {
+  font-family:'Comfortaa', cursive;
+}
+
+.verde {
+  color: green ;
+}
+
+.riga {
+  text-align: center ;
+  margin: auto;
+  height: 30px ;
+  background-color: green ;
+}
+
+.Testo {
+  font-size: 20px ;
+  color : white ;
+}
+
+.Testo-piccolo {
+  font-size: 14px ;
+  color : white ;
+}
+
+.barra-arancione {
+  background-color: orange ;
+  width: 200px ;
+  height: 18px ;
+}
+
+.barra-verde {
+  background-color: green ;
+  width: 400px ;
+  height: 18px ;
+}
+
+.barra-rossa {
+  background-color: red ;
+  width: 150px ;
+  height: 18px ;
+}
+
+.main, .barra-rossa, .barra-verde, .barra-arancione {
+  border-radius: 5px 5px 5px 5px;
+}
